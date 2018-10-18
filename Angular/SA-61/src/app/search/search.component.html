@@ -1,0 +1,23 @@
+
+
+
+<form class="container">
+  <mat-card align="center">
+  <mat-toolbar class="body">
+          <span><mat-icon>search</mat-icon>&nbsp;&nbsp;&nbsp;ค้นหาข้อมูลผู้ป่วย</span>
+  </mat-toolbar><br>
+  
+  <p>กรอกID : 
+      <mat-form-field class="example-full-width">
+          <input matInput >
+      </mat-form-field>
+
+  </p>
+  
+
+  <mat-dialog-actions>
+    <br>
+    <button mat-raised-button color="primary" (click)="searchid()">Search</button>    
+  </mat-dialog-actions>
+  </mat-card>
+</form>
